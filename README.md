@@ -24,8 +24,11 @@ salir de juego puede retirarse antes de responder a la pregunta, si por el contr
 1. Clone the github repository in your machine (Yo have to be installed NodeJS nad MySQL).
 
 2. Setup the database:
+
    2.1) First go to the following directory: `./server/config/`
+
    2.2) You'll find a .sql file named `sofkaprueba_db.sql` run it in a MySQL Local instance.
+
    2.3) Then open the `Conection.js` file that is in the same directory and edit it changing the connection string referencing the MySQL Local instance as follow:
 
 ```
