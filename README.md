@@ -27,21 +27,21 @@ salir de juego puede retirarse antes de responder a la pregunta, si por el contr
 
    2.1) First go to the following directory: `./server/config/`
 
-   2.2) You'll find a .sql file named `sofkaprueba_db.sql` run it in a MySQL Local instance.
+   2.2) You'll find a .sql file named `sofkaprueba_db.sql` run it in a MySQL Local instance (It's preferable that this be done with MySQL workbench).
 
    2.3) Then open the `Conection.js` file that is in the same directory and edit it changing the connection string referencing the MySQL Local instance as follow:
 
-```
-const db = mysql.createPool({
-  host: 'localhost', // Type here the host
-  user: '@MySQL user', // Type here the user
-  password: '@MySQL password', // Type here the pass
-  database: 'pruebasofka',
-  multipleStatements: true,
-});
-```
+   ```
+   const db = mysql.createPool({
+   host: 'localhost', // Type here the host
+   user: '@MySQL user', // Type here the user
+   password: '@MySQL password', // Type here the pass
+   database: 'pruebasofka',
+   multipleStatements: true,
+   });
+   ```
 
-2.4) Save the `Conection.js` file.
+   2.4) Save the `Conection.js` file.
 
 3. To run the server back to `server` directory and open a terminal. and type (one by one):
 
