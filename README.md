@@ -43,15 +43,17 @@ const db = mysql.createPool({
 
 2.4) Save the `Conection.js` file.
 
-3. To run the server back to `server` directory and open a terminal. Type:
+3. To run the server back to `server` directory and open a terminal. and type (one by one):
 
 ```
+npm install
 npm run devStart
 ```
 
-4. To run the frontend open other terminal and go to `client` directory and type:
+4. To run the frontend open other terminal and go to `client` directory and type (one by one):
 
 ```
+npm install
 npm start
 ```
 
